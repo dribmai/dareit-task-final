@@ -1,5 +1,5 @@
-resource "google_storage_bucket" "dareit-tf-8" {
-  name     = "dareit-tf-8"
+resource "google_storage_bucket" "dareit-akin-tf-8" {
+  name     = "dareit-akin-tf-8"
   location = "us-central1"
 }
 
