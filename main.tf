@@ -4,7 +4,7 @@ resource "google_storage_bucket" "dareit-tf-8" {
 }
 
 # resource "google_storage_default_object_access_control" "website_read" {
-#   bucket = google_storage_bucket.dareit-tf-8.name
+#   bucket = google_storage_bucket.dareit-akin-tf-8.name
 #   role   = "READER"
 #   entity = "allUsers"
 # }
@@ -35,7 +35,7 @@ resource "google_compute_instance" "dareit-vm" {
 }
 
 resource "google_storage_bucket" "static-site" {
-  name          = "static-website-task8"
+  name          = "static-website-akin-task8"
   location      = "US"
   force_destroy = true
 
