@@ -15,5 +15,3 @@
 6. Create backend.tf (describes the bucket where the terraform file will be stored), provider.tf (defines provider for all the resources) and main.tf (describes what kind of resources will be created) files needed to obtain neccessary resources in GCP<br>
 7. Create a file .github/workflow/terraform.yml to define CI/CD pipeline which will be triggering terraform actions with every push to the repository<br>
 8. Commit all the files and check the Actions tab in your repo<br>
-9. Create backend.tf, provider.tf and maint.tf files needed to obtain neccessary resources in GCP<br>
-10. Commit all the files and check the Actions tab in your repo<br>
