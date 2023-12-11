@@ -7,13 +7,13 @@
 
 ### Solution:
 
-1. Create w GCP account with a Service Account for terraform
-2. Generate a private key and save json file
-3. Create a bucket where the terraform file will be stored
-4. Create a new repository in Github and add a secret GCP key credentials to Actions
-5. Create your static website
-6. Create backend.tf (describes the bucket where the terraform file will be stored), provider.tf (defines provider for all the resources) and main.tf (describes what kind of resources will be created) files needed to obtain neccessary resources in GCP
-7.Create a file .github/workflow/terraform.yml to define CI/CD pipeline which will be triggering terraform actions with every push to the repository
-8.Commit all the files and check the Actions tab in your repo
-9. Create backend.tf, provider.tf and maint.tf files needed to obtain neccessary resources in GCP
-10. Commit all the files and check the Actions tab in your repo
+1. Create w GCP account with a Service Account for terraform<br>
+2. Generate a private key and save json file<br>
+3. Create a bucket where the terraform file will be stored<br>
+4. Create a new repository in Github and add a secret GCP key credentials to Actions<br>
+5. Create your static website<br>
+6. Create backend.tf (describes the bucket where the terraform file will be stored), provider.tf (defines provider for all the resources) and main.tf (describes what kind of resources will be created) files needed to obtain neccessary resources in GCP<br>
+7.Create a file .github/workflow/terraform.yml to define CI/CD pipeline which will be triggering terraform actions with every push to the repository<br>
+8.Commit all the files and check the Actions tab in your repo<br>
+9. Create backend.tf, provider.tf and maint.tf files needed to obtain neccessary resources in GCP<br>
+10. Commit all the files and check the Actions tab in your repo<br>
